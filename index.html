@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbarhere -->
+    <header class="header">
+        <nav class="navbar flex container">
+            <a href="#" class="logo">
+                Buzz<span>Store</span>
+            </a>
+            <ul class="navlist flex">
+                <li><a href="#home" class="link icon-active">HOME</a></li>
+                <li><a href="#shop" class="link">SHOP</a></li>
+                <li><a href="#about" class="link">PAGE</a></li>
+                <li><a href="#blog" class="link">BLOG</a></li>
+                <li><a href="#contact" class="link">Contact</a></li>
+                <li class="nav-icons flex">
+                    <a href="#" class="icon" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#account" class="icon" aria-label="User Account"><i class="fa-solid fa-user"></i></a>
+                    <a href="#cart" class="icon link-active" aria-label="Shopping Bag"><i
+                            class="fa-solid fa-shopping-bag"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="hamburger" aria-label="Open menu"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <!-- heresection -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content flex container">
+                <div>
+                    <h3>Summer Fashion</h3>
+                    <h1>New Collection</h1>
+                    <h4>Big sale of this week up to <span>30%</span></h4>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="about">
+            <div class="category-container container">
+                <div class="category">
+                    <img src="./img/for men.jpg" alt="Men's fashion category">
+                    <button>For Men's</button>
+                </div>
+                <div class="category">
+                    <img src="./img/for kids.jpg" alt="Kids' fashion category">
+                    <button>For Kid's</button>
+                </div>
+                <div class="category">
+                    <img src="./img/for accessories.jpg" alt="Accessories category">
+                    <button>Accessories</button>
+                </div>
+                <div class="category">
+                    <img src="./img/for women.jpg" alt="Women's fashion category">
+                    <button>For women</button>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="shop">
+            <div class="container">
+                <h2>New Product</h2>
+                <div class="line"></div>
+                <div class="card-container flex wrap">
+                    <div class="card">
+                        <img src="./img/card-image1.jpg" alt="Sport's Shoe">
+                        <div class="card-content">
+                            <p class='title'>
+                                Sport's Shoe
+                            </p>
+                            <div class="price">
+                                <span class="amount">1000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card sale">
+                        <img src="./img/card-image2.jpg" alt="Leather Black Handbag">
+                        <div class="card-content">
+                            <p class='title'>
+                                Leather Black Handbag Out Edition
+                            </p>
+                            <div class="price">
+                                <del>1500Rs</del>
+                                <span class="amount">1000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image3.jpg" alt="Women's Sweater">
+                        <div class="card-content">
+                            <p class='title'>
+                                Women's Sweater
+                            </p>
+                            <div class="price">
+                                <span class="amount">1000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image4.jpg" alt="Men's Sweater">
+                        <div class="card-content">
+                            <p class='title'>
+                                Men's Sweater
+                            </p>
+                            <div class="price">
+                                <span class="amount">1000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="sale-container">
+                <h3>New Trend 2025</h3>
+                <h1> Women's Collection</h1>
+                <div class="line">
+                </div>
+                <h4> Big sale of this week </h4>
+                <button>shop now</button>
+            </div>
+        </section>
+        <section class="section">   
+            <div class="container">
+                <h2>Best Sale</h2>
+                <div class="line"></div>
+                <div class="card-container flex wrap">
+                    <div class="card">
+                        <img src="./img/card-image5.jpg" alt="School Bag">
+                        <div class="card-content">
+                            <p class='title'>
+                                School Bag
+                            </p>
+                            <div class="price">
+                                <span class="amount">600Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card sale">
+                        <img src="./img/card-image6.jpg" alt="Umbrella">
+                        <div class="card-content">
+                            <p class='title'>
+                                Umbrella
+                            </p>
+                            <div class="price">
+                                <del>500Rs</del>
+                                <span class="amount">300Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image7.jpg" alt="Women's Accessories">
+                        <div class="card-content">
+                            <p class='title'>
+                                Women's Accessories
+                            </p>
+                            <div class="price">
+                                <span class="amount">1100Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image8.jpg" alt="Women Dress Straps">
+                        <div class="card-content">
+                            <p class='title'>
+                                Women Dress Straps
+                            </p>
+                            <div class="price">
+                                <span class="amount">300Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container flex wrap">
+                    <div class="card">
+                        <img src="./img/card-image9.jpg" alt="Women's Shoes">
+                        <div class="card-content">
+                            <p class='title'>
+                                Women shoewaers
+                            </p>
+                            <div class="price">
+                                <span class="amount">1500Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card sale">
+                        <img src="./img/card-image10.jpg" alt="Leather Handbag">
+                        <div class="card-content">
+                            <p class='title'>
+                                Leather Handbag 
+                            </p>
+                            <div class="price">
+                                <del>2000Rs</del>
+                                <span class="amount">1600Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image11.jpg" alt="Men's Leather Black Bag">
+                        <div class="card-content">
+                            <p class='title'>
+                                Men's Leather Black Bag Out Edition
+                            </p>
+                            <div class="price">
+                                <span class="amount">1000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card New">
+                        <img src="./img/card-image12.jpg" alt="Men's Jacket">
+                        <div class="card-content">
+                            <p class='title'>
+                                Men's Jacket
+                            </p>
+                            <div class="price">
+                                <span class="amount">2000Rs</span>
+                            </div>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="features">
+            <div class="secondary-bg">
+                <div class="container flex wrap">
+                    <div class="box">
+                        <i class="fa-solid fa-truck red-truck"></i>
+                        <h5>
+                            <a href="#">Free shipping</a>
+                        </h5>
+                        <p class="des">
+                            Free Shipping on order over 99 
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-ticket "></i>
+                        <h5>
+                            <a href="#">Cash on deliver</a>
+                        </h5>
+                        <p class="des">
+                            The Internet Trend To Repeat 
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-gift "></i>
+                        <h5>
+                            <a href="#">Gift For All</a>
+                        </h5>
+                        <p class="des">
+                            Receive Gift Subscribe
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-clock"></i>
+                        <h5>
+                            <a href="#">Open All Week</a>
+                        </h5>
+                        <p class="des">
+                            6.00am-17.00pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="blog">
+            <div class="container">
+                <h2>New Latest</h2>
+                <div class="line"></div>
+                <div class="blog-container flex wrap">
+                    <div class="blog-box">
+                        <img src="./img/news-image1.jpg" alt="News image 1">
+                        <div class="blog-content">
+                            <h3 class="heading">New Trend 2025</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore</p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="./img/news-image2.jpg" alt="News image 2">
+                        <div class="blog-content">
+                            <h3 class="heading">New Trend 2025</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore</p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="./img/news-image3.jpg" alt="News image 3">
+                        <div class="blog-content">
+                            <h3 class="heading">New Trend 2025</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore</p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="secondary-bg">
+                <form class="container flex">
+                    <h3>Sign up for send Newsletter</h3>
+                    <div class="input-container flex">
+                        <input type="email" name="email" id="email" placeholder="Your Email" autocomplete="off">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="social-icon flex">
+                        <a href="#" class="media">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/HejibTilak29554" class="media twitter" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tilak-hejib-377a39256" class="media linkedin" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="media">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer Here -->
+    <footer class="section" id="contact">
+        <div class="container flex">
+        <ul  class="footer-list">
+            <li>
+                <a href="#" class="footer-link">about us </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">online store </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">blog  </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">contact us </a>
+            </li>
+        </ul>
+        <ul  class="footer-list">
+            <li>
+                <a href="#" class="footer-link">FAQs </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Term of Service </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">privacy policy </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Returns </a>
+            </li>
+        </ul>
+        <ul  class="footer-list">
+            <li>
+                <a href="#" class="footer-link">login/register </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link"> Your Cart</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">wishlist items </a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">your checkout</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-logo">
+                <a href="#" class="logo">
+                    Buzz<span>Store</span>
+                </a>
+            </li>
+            <li>
+                <p class="detail">ABC city,XYZ road</p>
+            </li>
+            <li>
+                <p class="detail">buzz@gmail.com</p>
+            </li>
+            <li>
+                <p class="detail">+91 123 456 789</p>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> copyright &copy; BuzzStore </p>
+    </div>
+    </footer>
+    
+    <!-- Add your scripts here -->
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
