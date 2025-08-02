@@ -35,6 +35,12 @@ git clone https://github.com/Tilak-h/buzz-store-ecommerce.git
 - Right click on `login.html`
 - Select "Open with Live Server"
 
+## Author
+
+- Name: Tilak Hejib
+- Email: tilak.hejib@gmail.com
+- GitHub: [Tilak-h](https://github.com/Tilak-h)
+
 ## Connect With Me
 
 - LinkedIn: [Tilak Hejib](https://www.linkedin.com/in/tilak-hejib-377a39256)
