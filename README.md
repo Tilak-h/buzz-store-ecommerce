@@ -23,6 +23,11 @@ A modern e-commerce website with user authentication and product showcase.
 
 [View Demo](https://tilak-h.github.io/buzz-store-ecommerce)
 
+## Deployment Status
+
+- Repository: [GitHub Repo](https://github.com/Tilak-h/buzz-store-ecommerce)
+- Live Demo: [View Website](https://tilak-h.github.io/buzz-store-ecommerce/login.html)
+
 ## Getting Started
 
 1. Clone the repository
@@ -44,8 +49,11 @@ git clone https://github.com/Tilak-h/buzz-store-ecommerce.git
 ## Connect With Me
 
 - LinkedIn: [Tilak Hejib](https://www.linkedin.com/in/tilak-hejib-377a39256)
-- Twitter: [@HejibTilak29554](https://x.com/HejibTilak29554)
 
-## License
 
-MIT © [Tilak-h](https://github.com/Tilak-h)
+
+
+
+MIT © [Tilak-h](https://github.com/Tilak-h)## License- Twitter: [@HejibTilak29554](https://x.com/HejibTilak29554)
+
+
